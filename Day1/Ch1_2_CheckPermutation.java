@@ -1,4 +1,4 @@
-import java.util.*;
+import java.util.*;// do you really need this??
 //kdnkknknknkdndkd
 public class Ch1_2_CheckPermutation {
     public static void main(String[] args) {
@@ -15,7 +15,7 @@ public class Ch1_2_CheckPermutation {
         Map<Character, Integer> map = new HashMap<>();
         for (int i = 0; i < s1.length(); i++) {
             char c = s1.charAt(i);
-            if (map.containsKey(c)) {
+            if (map.containsKey(c)) {// 
                 map.put(c, map.get(c) + 1);
             } else {
                 map.put(c, 1);
