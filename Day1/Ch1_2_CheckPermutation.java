@@ -3,7 +3,7 @@ import java.util.*;
 public class Ch1_2_CheckPermutation {
     public static void main(String[] args) {
         String s1 = "abcdef";
-        String s2 = "bcadee";
+        String s2 = "bcadee"; // these test case is not so good#########
         System.out.println(isPermutation(s1, s2));
     }
     
