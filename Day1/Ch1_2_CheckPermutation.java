@@ -1,5 +1,5 @@
 import java.util.*;
-
+//kdnkknknknkdndkd
 public class Ch1_2_CheckPermutation {
     public static void main(String[] args) {
         String s1 = "abcdef";
